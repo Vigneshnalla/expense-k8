@@ -4,7 +4,9 @@ metadata:
   name: backend
   namespace: expense
 data:
-  DB_HOST: mysql
+  # DB_HOST: mysql
+  DB_HOST: db.vigneshdev.online
+
 ---
 kind: Deployment
 apiVersion: apps/v1
